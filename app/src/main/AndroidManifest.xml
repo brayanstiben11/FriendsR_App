@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FriendsR_App">
         <activity
+            android:name=".Persona4"
+            android:exported="true" />
+        <activity
+            android:name=".Persona3"
+            android:exported="true" />
+        <activity
+            android:name=".Persona2"
+            android:exported="true" />
+        <activity
             android:name=".Persona1"
             android:exported="true" />
         <activity

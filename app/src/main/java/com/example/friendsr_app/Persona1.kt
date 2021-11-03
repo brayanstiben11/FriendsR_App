@@ -1,5 +1,6 @@
 package com.example.friendsr_app
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
@@ -12,7 +13,6 @@ class Persona1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_persona1)
-        
         ratingBar = findViewById(R.id.ratingBar)
         ratingBar.numStars=5
         textView = findViewById(R.id.texto1)
