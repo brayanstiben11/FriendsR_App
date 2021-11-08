@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         val persona2 : ImageButton = findViewById(R.id.persona2)
         val persona3 : ImageButton = findViewById(R.id.persona3)
         val persona4 : ImageButton = findViewById(R.id.persona4)
+        val value1 : String? = intent.getStringExtra("value1")
 
         persona1.setOnClickListener()
         {
@@ -38,3 +39,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+

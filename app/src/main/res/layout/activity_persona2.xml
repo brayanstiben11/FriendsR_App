@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="316dp"
-        android:layout_height="155dp"
+        android:layout_width="303dp"
+        android:layout_height="127dp"
         android:text="Juan Perez"
         android:textAlignment="center"
         android:textSize="48sp"
@@ -24,13 +24,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="289dp"
-        android:layout_height="297dp"
+        android:layout_width="259dp"
+        android:layout_height="253dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.428"
+        app:layout_constraintVertical_bias="0.301"
         app:srcCompat="@drawable/img_1" />
 
     <RatingBar
@@ -58,4 +58,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.929" />
+
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="166dp"
+        android:layout_height="61dp"
+        android:text="BACK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="323dp"
+        android:layout_height="106dp"
+        android:text="Me puedes llamar juanito, me gustar jugar balancesto, me gusta las actividades al aire libre y ademas me encuentro estudiando ramas sociales"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
 </androidx.constraintlayout.widget.ConstraintLayout>
